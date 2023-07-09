@@ -82,6 +82,7 @@ section {
     height: auto;
     padding-bottom: 20px;
     border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
 }
 
 .container-principal h1 {
@@ -108,6 +109,10 @@ section {
     height: 500px;
 }
 
+/*
+    Biografia
+*/
+
 article h2 {
     text-align: center;
     margin-top: 15px;
@@ -121,4 +126,10 @@ article h2 {
     height: 150px;
     background-color: #c9c9c9;
     border-radius: 10px;
+    padding: 10px 50px;
+    text-align: justify;
+}
+
+.container-biografia h3 {
+    margin-bottom: 20px;
 }
